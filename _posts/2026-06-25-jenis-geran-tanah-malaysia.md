@@ -2,7 +2,6 @@
 title: "Freehold vs Leasehold"
 date: 2026-07-03
 language: en
-tags: [Land Titles]
 description: "How to read a Malaysian land title: tenure (freehold vs leasehold) and sekatan kepentingan, with a redacted example title."
 ---
 
