@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="post-header">
+    <p class="entry-date">{{ page.date | date: "%-d %B %Y" }}{% if page.language %} &middot; <span class="entry-lang">{{ page.language | upcase }}</span>{% endif %}</p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.tags.size > 0 %}
+    <p class="entry-tags">
+      {% for tag in page.tags %}<a class="tag" href="{{ '/tags/' | relative_url }}{{ tag | slugify }}/">{{ tag }}</a>{% endfor %}
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <nav class="post-footer-nav" aria-label="More posts">
+    <a href="{{ '/' | relative_url }}">&larr; All posts</a>
+  </nav>
+</article>

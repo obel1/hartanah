@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="intro">
+  <p class="eyebrow">Topic</p>
+  <h1 class="intro-title">{{ page.tag }}</h1>
+</section>
+
+<section class="feed" aria-label="Posts tagged {{ page.tag }}">
+  {% assign tagged = site.posts | where_exp: "post", "post.tags contains page.tag" %}
+  {% if tagged.size == 0 %}
+  <p class="entry-excerpt">No posts under this topic yet — check back soon.</p>
+  {% endif %}
+  {% for post in tagged %}
+  <article class="entry">
+    <div class="entry-tick" aria-hidden="true"></div>
+    <p class="entry-date">{{ post.date | date: "%-d %B %Y" }}</p>
+    <h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p class="entry-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
+    <p class="entry-more"><a href="{{ post.url | relative_url }}">Read the full guide &rarr;</a></p>
+  </article>
+  {% endfor %}
+</section>
+
+<p class="post-footer-nav"><a href="{{ '/tags/' | relative_url }}">&larr; All topics</a></p>

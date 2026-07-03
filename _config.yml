@@ -1,0 +1,38 @@
+# ─────────────────────────────────────────────────────────────
+# SITE SETTINGS — edit these three lines to rename your site
+# ─────────────────────────────────────────────────────────────
+title: Nota Geran
+tagline: Panduan geran, tanah & hartanah Malaysia
+description: >-
+  Nota ringkas tentang geran tanah, pajakan, lelong bank dan beli rumah
+  di Malaysia. Dwibahasa — English & Bahasa Melayu.
+
+# ─────────────────────────────────────────────────────────────
+# URL SETTINGS
+# BEFORE custom domain:  url is https://obel1.github.io and baseurl is /hartanah
+# AFTER custom domain:   change url to https://your-domain.online and baseurl to ""
+# ─────────────────────────────────────────────────────────────
+url: "https://nota-geran.online"
+baseurl: ""
+
+author:
+  name: Wan
+
+# Clean URLs: /my-post-slug/ instead of /2026/07/02/my-post-slug.html
+permalink: /:slug/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Default front matter so posts only need title, date, language, tags
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+exclude:
+  - README.md
