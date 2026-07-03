@@ -41,10 +41,10 @@ Tenure and restriction are two separate questions. Freehold tells you how long y
 
 <a class="attachment" href="{{ '/assets/jenis-geran/geran-contoh-redacted.pdf' | relative_url }}" markdown="0">
   📎 Download: Contoh Geran Strata (redacted, PDF)
-  <small>2 pages &middot; a real hakmilik strata with personal details removed</small>
+  <small>2 pages &middot; a real geran strata with personal details removed</small>
 </a>
 
-The attached title is a strata title (hakmilik strata) for a unit in Kuala Lumpur, with private details blacked out. Three sections to note:
+The attached title is a strata title (geran strata) for a unit in Kuala Lumpur, with private details blacked out. Three sections to note:
 
 **Pegangan** (page 1): it reads *"Pegangan untuk selama-lamanya"* under a *Geran Mukim*, which means freehold.
 
