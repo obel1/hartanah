@@ -22,7 +22,7 @@
   <link rel="icon" type="image/svg+xml" href="{{ '/favicon.svg' | relative_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
@@ -43,7 +43,12 @@
   </main>
 
   <footer class="site-footer">
-    <p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }} &middot; {{ site.tagline }}</p>
+    <p class="footer-links">
+      <a href="https://www.linkedin.com/in/wanmuthalib/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:wa.muthalib+hartanah@gmail.com">Email</a>
+      <a href="https://ko-fi.com/wanmuthalib" target="_blank" rel="noopener">Belanja kopi &#9749;</a>
+    </p>
+    <p class="footer-copy">&copy; {{ 'now' | date: '%Y' }} {{ site.title }} &middot; {{ site.tagline }}</p>
   </footer>
 
 </body>
