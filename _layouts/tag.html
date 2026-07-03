@@ -17,7 +17,7 @@ layout: default
     <p class="entry-date">{{ post.date | date: "%-d %B %Y" }}</p>
     <h2 class="entry-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p class="entry-excerpt">{{ post.excerpt | strip_html | truncate: 180 }}</p>
-    <p class="entry-more"><a href="{{ post.url | relative_url }}">Read the full guide &rarr;</a></p>
+    <p class="entry-more"><a href="{{ post.url | relative_url }}">Read the full note &rarr;</a></p>
   </article>
   {% endfor %}
 </section>

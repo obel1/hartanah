@@ -6,7 +6,7 @@ tags: [Land Titles]
 description: "How to read a Malaysian land title: tenure (freehold vs leasehold) and sekatan kepentingan, with a redacted example title."
 ---
 
-Two things are worth checking on any land title (hakmilik or geran): the tenure, and whether there is a restriction in interest.
+Two things are worth checking on any land title: the tenure, and whether there is any restriction in interest.
 
 ## Freehold vs leasehold
 
